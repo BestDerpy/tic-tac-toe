@@ -1,0 +1,51 @@
+/* BASE */
+
+body {
+  background: #a29bfe;
+}
+
+
+/* BLOCK */
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  height: 450px;
+
+  background: #5548b4;
+  border-radius: 5px;
+  box-shadow: 5px 8px 8px -5px #34495E;
+
+  box-sizing: border-box;
+}
+
+
+/* ELEMENTS */
+
+.card__header {
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: lighter;
+}
+
+.card__table { margin: auto; }
+
+.card__cell {
+  width: 100px;
+  height: 100px;
+
+  background-color: #121213;
+  border: 2px solid #121213;
+}
+
+
+/* HELPER */
+
+.h__hvr-red:hover {
+  background-color: red;
+}
+
